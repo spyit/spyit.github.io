@@ -1,8 +1,10 @@
 .menu{
-  width: 330px;
-  height: 100px;
+  
+  
   background : aquamarine;
-  margin: 140px auto 0;
+  margin: 300px auto;
+  /* vertical-align:middle; */
+  padding: 30px  30px  ;
 }
 input{
   border: 1px solid #ccc; 
@@ -26,4 +28,14 @@ input:focus{
   outline: 0;
   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
   box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
+}
+button {
+  background-color: rgb(91, 172, 44); /* Green */
+  border: none;
+  color: white;
+  padding: 7px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
